@@ -1,0 +1,6 @@
+@buckeyebot.Api_HostAddress = http://localhost:5182
+
+GET {{buckeyebot.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
