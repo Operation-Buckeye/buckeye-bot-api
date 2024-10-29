@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\buckeyebot.Domain\buckeyebot.Domain.csproj" />
+    <ProjectReference Include="..\buckeyebot.Data\buckeyebot.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Api", "buckeyebo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Domain", "buckeyebot.Domain\buckeyebot.Domain.csproj", "{9ABE0524-A483-49A2-97D8-513097CC67D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Data", "buckeyebot.Data\buckeyebot.Data.csproj", "{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9ABE0524-A483-49A2-97D8-513097CC67D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABE0524-A483-49A2-97D8-513097CC67D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABE0524-A483-49A2-97D8-513097CC67D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
