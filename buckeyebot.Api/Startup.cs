@@ -7,7 +7,6 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using buckeyebot.Data;
 
-
 namespace buckeyebot.Api
 {
     public class Startup
