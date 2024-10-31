@@ -52,15 +52,32 @@ public IActionResult PostRating(int id, [FromBody] Rating rating)
     return Ok(item);
 }
 [HttpPut("{id;int}")]
-public IActionResult Put(int id, Item item)
+public IActionResult Put(int id, [FromBody]Item item)
 {
+    if (id != item.Id) {
+        return BadRequest();
+
+    }
+    if(_db.Items.Find(id) == null) {
+        return NotFound();
+    }
+    _db.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+    _db.SaveChanges();
+
     return NoContent();
 }
     
     [HttpDelete("{id:int}")]
     public IActionResult Delete(int id)
     {
-        return NoContent();
+        var item = _db.Items.Find(id);
+        if (item == null) {
+            return NotFound();
+        }
+        _db.Items.Remove(item);
+        _db.SaveChanges();
+
+        return Ok();
     }
 }
 
