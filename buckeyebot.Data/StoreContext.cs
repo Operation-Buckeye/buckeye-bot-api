@@ -1,4 +1,5 @@
 ﻿using buckeyebot.Domain.Catalog;
+using Jet.Piramha.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace buckeyebot.Data
@@ -10,6 +11,7 @@ namespace buckeyebot.Data
             { }
 
             public DbSet<Item> Items { get; set; }
+            public DbSet<Order> Orders { get; set; }
 
             protected override void OnModelCreating(ModelBuilder builder)
         {
