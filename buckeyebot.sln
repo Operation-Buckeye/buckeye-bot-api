@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Domain", "buckey
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Data", "buckeyebot.Data\buckeyebot.Data.csproj", "{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93501BAF-060E-4590-A64D-382E82B97EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buckeyebot.Domain.Tests", "tests\buckeyebot.Domain.Tests\buckeyebot.Domain.Tests.csproj", "{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F028AFFE-5E6F-45BC-9E2D-622F6155F7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E2A07DE-4D37-45FB-BC9D-DB93DAF6722A} = {93501BAF-060E-4590-A64D-382E82B97EE9}
 	EndGlobalSection
 EndGlobal
