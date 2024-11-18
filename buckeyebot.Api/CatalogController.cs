@@ -68,6 +68,7 @@ public IActionResult Put(int id, [FromBody]Item item)
 }
     
     [HttpDelete("{id:int}")]
+    [Authorize("delete:catalog")]
     public IActionResult Delete(int id)
     {
         var item = _db.Items.Find(id);
